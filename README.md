@@ -1,12 +1,39 @@
-# React + Vite
+# TechMintLab Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This React project features a Hero Banner slider and a Portfolio carousel with responsive design and smooth animations. It uses **React**, **Tailwind CSS**, and **react-slick** for the carousel functionality.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Responsive Hero Banner with autoplay slider
+- Portfolio section with image hover effects
+- Images served from `public/assets/Images`
+- Styled with Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Prerequisites
+
+- Node.js (v14 or higher recommended)
+- npm (comes with Node.js)
+
+---
+
+## Setup & Running Locally
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/devendra0704/TechMintLab
+   cd TechMinLab
+   ```
+2. Install dependencies:
+```
+npm install
+```
+
+3. Start the development server
+```
+npm run dev
+''
