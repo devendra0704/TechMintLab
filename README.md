@@ -4,6 +4,9 @@ This React project features a Hero Banner slider and a Portfolio carousel with r
 
 ---
 
+## Live Link
+[https://techmintlab.netlify.app/](https://techmintlab.netlify.app/)
+
 ## Features
 
 - Responsive Hero Banner with autoplay slider
@@ -29,11 +32,11 @@ This React project features a Hero Banner slider and a Portfolio carousel with r
    cd TechMinLab
    ```
 2. Install dependencies:
-```
-npm install
-```
+   ```
+   npm install
+   ```
 
 3. Start the development server
-```
-npm run dev
-''
+   ```
+   npm run dev
+   ```
