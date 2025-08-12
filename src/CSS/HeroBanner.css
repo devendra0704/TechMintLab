@@ -1,0 +1,53 @@
+.main-banner {
+    position: relative;
+    overflow: visible;
+    z-index: 0;
+}
+
+/* Right image */
+.main-banner::before {
+    content: "";
+    background-image: url("/assets/Images/banner-right-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    top: 100px;
+    width: 819px;
+    height: 674px;
+    z-index: 1;
+}
+
+/* Left image */
+.main-banner::after {
+    content: "";
+    background-image: url("/assets/Images/baner-dec-left.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 100px;
+    width: 267px;
+    height: 532px;
+    z-index: 1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1524px) {
+
+    /* Hide right image on tablets and smaller */
+    .main-banner::before {
+        /* display: none; */
+        width: 619px;
+        height: 474px;
+    }
+}
+
+@media (max-width: 1424px) {
+
+    /* Hide right image on tablets and smaller */
+    .main-banner::before {
+        display: none;
+    
+    }
+}
+
